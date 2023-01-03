@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classdftefe_1_1basis_1_1BasisHandler.html" title="An abstract class to encapsulate the partitioning of a basis across multiple processors." alt="" coords="5,13,264,53"/>
+<area shape="rect" id="node2" href="$classdftefe_1_1basis_1_1FEBasisHandler.html" title="An abstract class to encapsulate the partitioning of a finite element basis across multiple processor..." alt="" coords="312,13,599,53"/>
+<area shape="rect" id="node3" href="$classdftefe_1_1basis_1_1FEBasisHandlerDealii.html" title="An abstract class to encapsulate the partitioning of a finite element basis across multiple processor..." alt="" coords="647,5,840,60"/>
+</map>

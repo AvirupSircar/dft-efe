@@ -1,0 +1,4 @@
+<map id="dftefe::utils::MPICommunicatorP2PKernels::accumAddLocallyOwnedContrRecvBufferFromTargetProcs" name="dftefe::utils::MPICommunicatorP2PKernels::accumAddLocallyOwnedContrRecvBufferFromTargetProcs">
+<area shape="rect" id="node1" title="Function template for architecture adaptable accumlate kernel from recv buffer." alt="" coords="276,5,517,60"/>
+<area shape="rect" id="node2" href="$classdftefe_1_1utils_1_1mpi_1_1MPICommunicatorP2P.html#ad4b27358a3abea6f82bf27a42b825fa6" title=" " alt="" coords="5,5,228,60"/>
+</map>

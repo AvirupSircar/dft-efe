@@ -1,0 +1,6 @@
+<map id="dftefe::quadrature::QuadratureRuleContainer::nCellQuadraturePoints" name="dftefe::quadrature::QuadratureRuleContainer::nCellQuadraturePoints">
+<area shape="rect" id="node1" title="A function to returns the number of quadrature points in cell corresponding to the the cell Id." alt="" coords="499,41,672,96"/>
+<area shape="rect" id="node2" href="$namespacedftefe_1_1quadrature_1_1QuadratureValuesContainerInternal.html#a6408fedb2c585fa350935b935c776323" title=" " alt="" coords="264,5,451,60"/>
+<area shape="rect" id="node3" href="$namespacedftefe_1_1basis.html#a44e92c798965b77c125ab0ea864d634f" title=" " alt="" coords="283,85,431,125"/>
+<area shape="rect" id="node4" href="$classdftefe_1_1basis_1_1FEBasisOperations.html#a873c4ae533cb3f6913a4cfde28dbafa2" title=" " alt="" coords="5,85,216,125"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="dftefe::utils::PointImpl::size" name="dftefe::utils::PointImpl::size">
+<area shape="rect" id="node1" title="Returns the dimension of the point." alt="" coords="256,161,403,201"/>
+<area shape="rect" id="node2" href="$namespacedftefe_1_1basis.html#ab24d5f88db3262260dae6200d3f72e48" title=" " alt="" coords="29,5,185,45"/>
+<area shape="rect" id="node3" href="$namespacedftefe_1_1utils.html#ab75f3700b3c3bcbb268181d55ed97679" title="In&#45;place addition of two pointts p&#45;&gt; p + q." alt="" coords="29,70,184,95"/>
+<area shape="rect" id="node4" href="$namespacedftefe_1_1utils.html#a347ac002846f0c6175eb0bc43a1dad85" title="In&#45;place subtraction of two points p &#45;&gt; p &#45; q;." alt="" coords="31,119,182,145"/>
+<area shape="rect" id="node5" href="$namespacedftefe_1_1utils.html#a458eeed28f0cc336f081d535fb340d3f" title="Output perator." alt="" coords="29,169,184,194"/>
+<area shape="rect" id="node6" href="$classdftefe_1_1utils_1_1PointImpl.html#a6de0949aeb8fe94bb89516b267eae7c5" title="Operator overload for assignment q=p." alt="" coords="33,219,180,259"/>
+<area shape="rect" id="node7" href="$classdftefe_1_1basis_1_1TriangulationDealiiParallel.html#a062edb9380bf2aa8cefed74b1f5bf9c7" title=" " alt="" coords="5,283,208,323"/>
+<area shape="rect" id="node8" href="$classdftefe_1_1basis_1_1TriangulationDealiiSerial.html#a3204fe8942f251fa751483a9c9f0fcd1" title=" " alt="" coords="11,347,203,387"/>
+</map>

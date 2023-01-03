@@ -1,0 +1,285 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$
+N^{\boldsymbol{\textbf{R}}}(\boldsymbol{\textbf{r}})$
+\pagebreak
+
+$\boldsymbol{\textbf{R}}$
+\pagebreak
+
+\begin{equation*}
+ N^{\boldsymbol{\textbf{r}}}(\boldsymbol{\textbf{r}}) = f(r)
+Y_{lm}(\theta,\phi) \end{equation*}
+\pagebreak
+
+$r$
+\pagebreak
+
+$\boldsymbol{\textbf{r}}$
+\pagebreak
+
+$f(r)$
+\pagebreak
+
+$Y_{lm}(\theta,\phi)$
+\pagebreak
+
+$l$
+\pagebreak
+
+$m$
+\pagebreak
+
+$\theta$
+\pagebreak
+
+$\phi$
+\pagebreak
+
+$ l_{\inf} $
+\pagebreak
+
+$ z = \alpha x$
+   @param[in] size size of the array
+   @param[in] $
+\pagebreak
+
+$ scalar
+   @param[in] x array
+   @param[out] z array
+ */
+template <typename ValueType1,
+          typename ValueType2,
+          typename dftefe::utils::MemorySpace memorySpace>
+void
+ascale(size_type                            n,
+       ValueType1                           alpha,
+       const ValueType2 *                   x,
+       scalar_type<ValueType1, ValueType2> *z,
+       LinAlgOpContext<memorySpace> &       context);
+
+
+/**
+   @brief Template for performing $
+\pagebreak
+
+$ scalar
+   @param[in] x array
+   @param[out] z array
+ */
+static void
+ascale(size_type                            size,
+       ValueType1                           alpha,
+       const ValueType2 *                   x,
+       scalar_type<ValueType1, ValueType2> *z);
+
+/**
+   @brief Template for performing $
+\pagebreak
+
+$ {\bf Z}={\bf A} \odot {\bf B} = a_1 \otimes b_1
+\quad a_2 \otimes b_2 \cdots \a_K \otimes b_K $
+\pagebreak
+
+${\bf
+A}$
+\pagebreak
+
+$I \times K$
+\pagebreak
+
+${\bf B}$
+\pagebreak
+
+$J \times K$
+\pagebreak
+
+$
+{\bf Z} $
+\pagebreak
+
+$ (IJ)\times K $
+\pagebreak
+
+$ a_1 \cdots \a_K $
+\pagebreak
+
+${\bf A}$
+\pagebreak
+
+$ {\bf Z}^T={\bf A}^T \odot {\bf B}^T = a_1 \otimes b_1
+\quad a_2 \otimes b_2 \cdots \a_K \otimes b_K $
+\pagebreak
+
+$K \times I$
+\pagebreak
+
+$K \times J$
+\pagebreak
+
+$ K\times (IJ) $
+\pagebreak
+
+$ z = \alpha x + \beta y $
+\pagebreak
+
+$ alpha $
+\pagebreak
+
+$ beta $
+\pagebreak
+
+$ l_2 $
+\pagebreak
+
+$ \mathbf{Ax}=\mathbf{b}$\f).
+  
+   @see <em>An Introduction to the Conjugate Gradient Method Without the
+     Agonizing Pain</em>, Jonathan Richard Shewchuk
+     (<a
+   href="https://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf">Painless
+   Conjugate-Gradient</a>)
+  
+   @see <em> Numerical Linear Algebra </em>, Trefethen, Lloyd N., and David Bau III., Vol. 50. Siam, 1997.
+  
+   @tparam ValueTypeOperator The datatype (float, double, complex<double>,
+   etc.) for the operator (e.g. Matrix) associated with the linear solve
+   @tparam ValueTypeOperand The datatype (float, double, complex<double>,
+   etc.) of the vector, matrices, etc.
+   on which the operator will act
+   @tparam memorySpace The meory space (HOST, DEVICE, HOST_PINNED, etc.)
+   in which the data of the operator
+   and its operands reside
+  
+ */
+template <typename ValueTypeOperator,
+          typename ValueTypeOperand,
+          utils::MemorySpace memorySpace>
+class CGLinearSolver : public LinearSolverImpl<ValueTypeOperator,
+                                               ValueTypeOperand,
+                                               memorySpace>
+{
+public:
+  /**
+     @brief Constructor
+    
+     @param[in] maxIter Maximum number of iterations to allow the solver
+     to iterate. Generally, this determines the maximum size of the Krylov
+     subspace that will be used.
+     @param[in] absoluteTol Convergence tolerane on the absolute $
+\pagebreak
+
+$||\mathbf{Ax}-\mathbf{b}||$\f)
+     @param[in] relativeTol Convergence tolerane on the relative L2 norm of
+     the residual (i.e., on $
+\pagebreak
+
+$||\mathbf{Ax}-\mathbf{b}|| > divergenceTol$\f)
+    
+     @note Convergence is achieved if
+     $
+\pagebreak
+
+$\mathbf{b}$\f) and the handle to the action of the
+ discrete operator on a Vector. It also stores the final solution
+ $
+\pagebreak
+
+$N$
+\pagebreak
+
+$M \times N$
+\pagebreak
+
+$M $
+\pagebreak
+
+$[a,b)$
+\pagebreak
+
+$a$
+\pagebreak
+
+$b$
+\pagebreak
+
+$b-a$
+\pagebreak
+
+$ w = au + bv $
+\pagebreak
+
+$(a,b)$
+\pagebreak
+
+$ w = a*u + b*v $
+\pagebreak
+
+$[a_0,b_0,a_1,b_1,\ldots,a_{P-1},b_{P-1}]$
+\pagebreak
+
+$(a_i,b_i)$
+\pagebreak
+
+$i-$
+\pagebreak
+
+$L_i = \{g^{(k_i)}_1,g^{(k_i)}_2,\ldots,g^{(k_i)}_{N_i}\}$
+\pagebreak
+
+$g$
+\pagebreak
+
+$k_i$
+\pagebreak
+
+$i$
+\pagebreak
+
+$N_i$
+\pagebreak
+
+$L_i$
+\pagebreak
+
+$0, 1,\ldots,P-1$
+\pagebreak
+
+$[N_0,N_1), [N_1, N_2), [N_2, N_3), ..., [N_{P-1},N_P)$
+\pagebreak
+
+$N_0, N_1,\ldots, N_P$
+\pagebreak
+
+$L=\{a_1,b_1, a_2, b_2, \ldots, a_G, b_G\}$
+\pagebreak
+
+$a_i$
+\pagebreak
+
+$b_i$
+\pagebreak
+
+$[a_i,b_i)$
+\pagebreak
+
+$\sum_i$
+\pagebreak
+
+$L_i = \{o^{(k_i)}_1,o^{(k_i)}_2,\ldots,o^{(k_i)}_{N_i}\}$
+\pagebreak
+
+$o$
+\pagebreak
+
+\end{document}

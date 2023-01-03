@@ -1,0 +1,5 @@
+<map id="dftefe::basis::FEBasisHandler&lt; ValueTypeBasisCoeff, memorySpace, dim &gt;" name="dftefe::basis::FEBasisHandler&lt; ValueTypeBasisCoeff, memorySpace, dim &gt;">
+<area shape="rect" id="node1" title="An abstract class to encapsulate the partitioning of a finite element basis across multiple processor..." alt="" coords="5,93,292,133"/>
+<area shape="rect" id="node3" href="$classdftefe_1_1basis_1_1FEBasisHandlerDealii.html" title="An abstract class to encapsulate the partitioning of a finite element basis across multiple processor..." alt="" coords="52,181,245,236"/>
+<area shape="rect" id="node2" href="$classdftefe_1_1basis_1_1BasisHandler.html" title="An abstract class to encapsulate the partitioning of a basis across multiple processors." alt="" coords="19,5,278,45"/>
+</map>

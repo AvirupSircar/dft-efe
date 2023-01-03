@@ -1,0 +1,4 @@
+<map id="dftefe::utils::MPICommunicatorP2PKernels::gatherLocallyOwnedEntriesSendBufferToTargetProcs" name="dftefe::utils::MPICommunicatorP2PKernels::gatherLocallyOwnedEntriesSendBufferToTargetProcs">
+<area shape="rect" id="node1" title="Function template for architecture adaptable gather kernel to send buffer." alt="" coords="228,5,483,60"/>
+<area shape="rect" id="node2" href="$classdftefe_1_1utils_1_1mpi_1_1MPICommunicatorP2P.html#a7eee428f6801f0bfe18172f93db4a8f6" title=" " alt="" coords="5,5,180,60"/>
+</map>
